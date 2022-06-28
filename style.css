@@ -1,0 +1,27 @@
+body {
+	min-height: 300px;
+}
+
+.jumbotron {
+	padding-top: 6rem;
+	background-color: #e2edff;
+} 
+
+ #projects{
+ 	background-color: #e2edff;
+}
+ main-header{
+ 	font-size: 2,5;
+    font-weight: bold;
+    color: var(--clr-dark);
+  }
+  @media(min-widht: 576px){
+  	main-header{
+  		font-size: 4rem;
+  	}
+ }
+   my-photo{
+   	object-fit:cover;
+   	widht: 100%;
+   	border-radius: 1rem;
+  }
