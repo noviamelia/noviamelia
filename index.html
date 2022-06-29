@@ -170,6 +170,7 @@
 
           if (name =='' || email == '' || pesan =='') {
             alert('Data Belum Lengkap!');
+            document.location.href = "https://noviamelia.github.io";
           } else {
             window.open('https://api.whatsapp.com/send?phone=6283173814786' + '&text=' + 'Nama: '+ name + '%0A' + 'Email :' + email + '%0A' + 'Pesan : ' + pesan);
           }
